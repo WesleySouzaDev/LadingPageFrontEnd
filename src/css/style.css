@@ -1,0 +1,231 @@
+@import url(./variable.css);
+@import url(./midiaQuery.css);
+@import url(./font.css);
+@import url(./keyFrames.css);
+
+li {
+    list-style: none;
+}
+
+h3 {
+    padding: 0rem;
+    margin: 1rem;
+    cursor: default;
+}
+
+#homePage {
+    padding: 0px;
+    margin: 0px;
+    border: 0px;
+    font-family: var(--font-regular);
+    background-color: var(--cor-preto);
+}
+
+#top {
+    background-color: var(--cor-preto);
+}
+
+#end {
+    width: 100%;
+    height: 35rem;
+}
+
+.bannerPage {
+    background: var(--cor-vermelho);
+    background: linear-gradient(0deg, var(--cor-vermelho) 0%, var(--cor-preto) 90%);
+}
+
+.logoTipo {
+    display: flex;
+    justify-items: center;
+    padding: 1rem;
+}
+
+.linkMenuMobile,
+.linkMenuDesktop {
+    text-decoration: none;
+    color: var(--cor-branco);
+    font-family: var(--font-bold);
+}
+
+
+.linkMenuDesktop:hover,
+.linkMenuMobile:hover {
+    transition: .2s;
+    color: var(--cor-vermelho);
+}
+
+
+.titleBanner {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    color: var(--cor-branco);
+}
+
+.textBanner {
+    display: flex;
+    flex-direction: column;
+    text-overflow: 10px 10px 100px var(--cor-branco);
+    transform: translateY(0px);
+    animation: float 5s ease-in-out infinite;
+    cursor: default;
+}
+
+.name {
+    font-size: 4.2rem;
+    text-decoration: none;
+    transition: .2S ease-in-out;
+}
+
+.name:hover {
+    text-shadow: var(--shadow-white-1);
+}
+
+.funcao {
+    font-size: 2rem;
+    font-family: var(--font-medium);
+}
+
+.funcao:hover {
+    text-shadow: var(--shadow-white-2);
+}
+
+.sobre {
+    font-size: 1.2rem;
+    font-family: var(--font-medium);
+}
+
+.sobre:hover {
+    text-shadow: var(--shadow-white-2);
+}
+
+.linkGithub:hover,
+.linkLinkedin:hover {
+    background-color: var(--cor-branco);
+    color: var(--cor-preto);
+    box-shadow: var(--shadow-white-1);
+}
+
+.linkGithub:hover .GitHub,
+.linkLinkedin:hover .Linkedin {
+    filter: brightness(0%);
+}
+
+.about {
+    width: 100%;
+    height: 30rem;
+    padding: 2rem 0rem;
+    background-image: url(../img/slide_4.jpeg);
+    background-position: center;
+    background-size: cover;
+}
+
+.divAbout {
+    padding: 0rem 0.8rem;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 28rem;
+    border-radius: 15px;
+    backdrop-filter: brightness(40%);
+    color: var(--cor-branco);
+    justify-items: center;
+    align-items: center;
+    transition: 3s ease-in-out;
+}
+
+.titleAbout {
+    font-size: 3rem;
+    cursor: default;
+    font-family: var(--font-medium);
+}
+
+.divP {
+    text-align: center;
+    font-size: 1.5rem;
+    cursor: default;
+}
+
+.linkWM {
+    color: var(--cor-amarelo);
+}
+
+.projects{
+    background-image: url(../img/background_2.jpeg);
+    color: var(--cor-branco);
+    text-align: center;
+    background-size: cover;
+}
+
+.cardProjects {
+    padding: 1.5rem 0rem;
+    border: solid 2px var(--cor-branco);
+    border-radius: 10px;
+    backdrop-filter: blur(20px);
+    transition: .35s;
+}
+
+.gridProjects:hover > :not(:hover){
+    opacity: .4;
+    transform: scale(0.9);
+}
+
+.imgCard {
+    width: 100%;
+    max-width: 300px;
+    border-radius: 15px;
+}
+
+.textProjects {
+    padding-bottom: 0.8rem;
+}
+
+.linkCard {
+    display: flex;
+    flex-direction: column;
+    gap: 19px;
+    padding: 1.8rem 1rem;
+}
+
+.repLink {
+    display: flex;
+    flex-direction: row;
+    gap: 12px;
+    padding: 0.8rem 0rem;
+    border: solid 2px var(--cor-branco);
+    border-radius: 10px;
+    background: transparent;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color: var(--cor-branco);
+    font-family: var(--font-bold);
+    font-size: 1.5rem;
+    transition: .2s ease-in-out;
+    cursor: pointer;
+}
+
+.repLink:hover {
+    color: var(--cor-preto);
+    transform: scale(0.9);
+    box-shadow: var(--shadow-white-1);
+    background-color: var(--cor-branco);
+}
+
+.imgGitHub,
+.imgSite {
+    width: 35px;
+    height: 35px;
+    transition: .2s ease-in-out;
+}
+
+.repLink:hover .imgGitHub,
+.repLink:hover .imgSite{
+    filter: brightness(0%);
+}
+
+.fotend {
+    background: var(--cor-azul-escuro);
+    background: linear-gradient(0deg var(--cor-azul-escuro) 0%, var(--cor-vermelho) 90%)
+}

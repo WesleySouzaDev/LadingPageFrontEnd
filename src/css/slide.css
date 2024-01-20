@@ -1,0 +1,11 @@
+@import url(./variable.css);
+@import url(./midiaQuery.css);
+@import url(./font.css);
+
+#secSlide{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--cor-preto);
+}
