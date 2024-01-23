@@ -87,36 +87,6 @@ h3 {
     background-size: cover;
 }
 
-.divAbout {
-    padding: 0rem 0.8rem;
-    display: flex;
-    flex-direction: column;
-    width: 100%;
-    height: 28rem;
-    border-radius: 15px;
-    backdrop-filter: brightness(40%);
-    color: var(--cor-branco);
-    justify-items: center;
-    align-items: center;
-    transition: 3s ease-in-out;
-}
-
-.titleAbout {
-    font-size: 3rem;
-    cursor: default;
-    font-family: var(--font-medium);
-}
-
-.divP {
-    text-align: center;
-    font-size: 1.5rem;
-    cursor: default;
-}
-
-.linkWM {
-    color: var(--cor-amarelo);
-}
-
 .projects{
     background-image: url(../img/background_2.jpeg);
     color: var(--cor-branco);
