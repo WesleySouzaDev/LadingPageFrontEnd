@@ -16,6 +16,15 @@
         padding-bottom: 4rem;
     }
 
+    .titleBanner {
+        padding: 0px 1rem;
+        justify-items: center;
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+        color: var(--cor-branco);
+    }
+
     .name {
         font-size: 4.2rem;
         text-decoration: none;
@@ -103,7 +112,7 @@
     .btnPortifolio {
         display: flex;
         flex-direction: row;
-        align-items: center;
+        align-items: start;
         gap: 20px;
         margin-top: 20px;
     }
@@ -211,8 +220,11 @@
     }
 
     .titleBanner {
-        padding: 0px 1rem;
         justify-items: center;
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+        color: var(--cor-branco);
     }
 
     .colum1 {
@@ -237,7 +249,7 @@
     .btnPortifolio {
         display: flex;
         flex-direction: row;
-        align-items: start;
+        align-items: center;
         gap: 10px;
         margin-top: 20px;
     }
@@ -256,14 +268,14 @@
         align-items: center;
         gap: 12px;
         width: 100%;
-        max-width: 190px;
+        max-width: 100px;
         text-decoration: none;
         font-size: 1rem;
         background-color: var(--cor-preto);
         color: var(--cor-branco);
         font-family: var(--font-bold);
         font-size: 0.8rem;
-        padding: 1.8rem;
+        padding: 1.5rem;
         border-radius: 6px;
         margin-bottom: 10px;
         transition: .3s ease-in-out;
